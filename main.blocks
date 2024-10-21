@@ -1,0 +1,46 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="%s#5Bl)*D)w5{cjL/$7m">img</variable></variables><block type="pxt-on-start" id="k,sjgD2)fA]Hb^B72hv0" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="qrc*APy-#BlWjr/C9$[5"><field name="VAR" id="%s#5Bl)*D)w5{cjL/$7m">img</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="screen_image_picker" id=",K/AlZ.ul9xGR*%;{(EM"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":",K/AlZ.ul9xGR*%;{(EM"}}</data></block></value></block></statement></block><block type="function_definition" id="zsv8[;jhI,8GdhM8vri%" x="370" y="-10"><mutation name="randomise weapon" functionid="wUdNy{ry^a0+NYEjC*t^"><arg name="staff" id="F1D`afMH2bBu]~W[T%zF" type="boolean"></arg><arg name="img" id="YBZ@J1Cb^7gUH6cD}j8l" type="Image"></arg></mutation><field name="function_name">randomise weapon</field><statement name="STACK"><block type="controls_if" id="nl)6`U*l({p@79ys{,dA"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="lK#SQv7(25)pSBI),Ylz"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_boolean" id=",^Q$Qrb@tAcktKc)aD`p"><field name="VALUE">staff</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_boolean" id="#n|gO1G|WTQezz63gOEK"><field name="BOOL">TRUE</field></block></value></block></value><statement name="DO0"><block type="controls_if" id="8XeGWTES5mCkVp~hvzr!"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=".Rnd2pw$DDc#^;I;[r1n"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="2[?5XJ*g#P6Qmg^6X:70"><value name="min"><shadow type="math_number" id="!4}Q@I#?ix9c]AB|py|K"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="VxrNR5$v$lZs~]W=v#nP"><field name="NUM">10</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="JN#g-jh_@axutXk^;EQ_"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="variables_set" id="ohAlq3HK)h~@7ly|Td|!"><field name="VAR" id="%s#5Bl)*D)w5{cjL/$7m">img</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="screen_image_picker" id="o{zy}s4p0m)|iaY+[:Zx"><field name="img">img`
+. . . . . . . . f f f . . 
+. . . . . . . f e e e f . 
+. . . . . . f e f f f e f 
+. . . . . . f f 6 1 f e f 
+. . . . . . . f 3 6 f e f 
+. . . . . . f f f f e f . 
+. . . . . f e e e e f . . 
+. . . . f e f f f f . . . 
+. . . f c f . . . . . . . 
+. . f c f . . . . . . . . 
+. f c f . . . . . . . . . 
+f c f . . . . . . . . . . 
+f f . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"o{zy}s4p0m)|iaY+[:Zx"}}</data></block></value></block></statement><statement name="ELSE"><block type="variables_set" id="w9VKiT,h95Yrn~aAat.`"><field name="VAR" id="%s#5Bl)*D)w5{cjL/$7m">img</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="screen_image_picker" id="MPC|Jbny]/f-v|?bpYbS"><field name="img">img`
+. . . . . . . . f f f . . 
+. . . . . . . f e e e f . 
+. . . . . . f e f f f e f 
+. . . . . . f f 4 1 f e f 
+. . . . . . . f 5 4 f e f 
+. . . . . . f f f f e f . 
+. . . . . f e e e e f . . 
+. . . . f e f f f f . . . 
+. . . f c f . . . . . . . 
+. . f c f . . . . . . . . 
+. f c f . . . . . . . . . 
+f c f . . . . . . . . . . 
+f f . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"MPC|Jbny]/f-v|?bpYbS"}}</data></block></value></block></statement></block></statement></block></statement></block></xml>
